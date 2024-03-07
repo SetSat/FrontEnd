@@ -1,0 +1,129 @@
+.container {
+  max-width: 800px;
+  margin: 1rem;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  padding: 3rem;
+  background: linear-gradient(to right, #efefbb, #d4d3dd);
+}
+
+.task-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+.section h3 {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+.section ul,
+.section ol {
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 8px;
+  padding: 3px;
+}
+
+.section a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: grey;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #c0c0aa, #1cefff);
+}
+
+/* Add space between sentences */
+.container p {
+  padding-right: 5px;
+}
+.show-details,
+show-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 5px;
+  border-radius: 9px;
+}
+.icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Stylish and Animated Design */
+
+.class {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 2.5;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.joinclass {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  border-radius: 8px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.joinclass:hover {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  transform: scale(1.05);
+}
+
+.sessionsContainer {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.sessionroad {
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.roadmap_icon_container {
+  border: 2px solid #4b0dba;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+  text-align: center;
+  background-color: #4b0dba;
+  color: white;
+}
+
+.roadmap_icon_container:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.title {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.title:hover {
+  transform: scale(1.05);
+}
+
+.datetime {
+  margin-top: 15px;
+  color: #4b0dba;
+  transition: color 0.3s;
+}
+
+.datetime:hover {
+  color: #3c08a9;
+}
+
+.prereadhead {
+  font-weight: bold;
+  margin-top: 20px;
+  color: #4b0dba;
+  transition: color 0.3s;
+}
+
+.prereadhead:hover {
+  color: #3c08a9;
+}
+
+.preread {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.preread:hover {
+  transform: scale(1.05);
+}
+
+.activities {
+  margin-top: 20px;
+  background-color: #4b0dba;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  transition: background 0.3s ease-in-out;
+}
+
+.activities:hover {
+  background-color: #3c08a9;
+}
+
+.joinclasslink {
+  background: #4b0dba;
+  border-radius: 8px;
+  width: auto;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.joinclasslink:hover {
+  background: #3c08a9;
+  transform: scale(1.05);
+}
+.taskdiv {
+  margin-top: 20px;
+}

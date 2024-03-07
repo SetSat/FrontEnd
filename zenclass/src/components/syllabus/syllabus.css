@@ -1,0 +1,39 @@
+.syllabus-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 3rem;
+  width: 35vw;
+  background: linear-gradient(to right, #acb6e5, #86fde8); }
+
+.syllabus-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.syllabus-top,
+.syllabus-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.course {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-name {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.download-button {
+  cursor: pointer;
+  color: #007bff; /* blue color */
+}
+.syllabus-title {
+  font-weight: bold;
+}
